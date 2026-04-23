@@ -44,8 +44,7 @@ struct Pagina {
 
 ---
 
-### **Parte 3**
-```md
+
 ## Classe MMU
 
 ### Atributos principais
@@ -60,3 +59,28 @@ struct Pagina {
 
 ```cpp
 void acessar(int pid, int endereco_virtual);
+```
+
+## Como compilar e executar
+
+Para compilar o projeto, utilize um compilador compatível com C++ (como o `g++`). No terminal, navegue até a pasta do projeto e execute:
+
+```bash
+g++ main.cpp MMU.cpp -o simulador
+```
+
+Aqui está o bloco de código atualizado para o seu README.md, contendo as instruções claras de compilação e execução, conforme solicitado.
+
+## Como compilar e executar
+
+Para compilar o projeto, utilize um compilador compatível com C++ (como o `g++`). No terminal, navegue até a pasta do projeto e execute:
+
+```bash
+g++ main.cpp MMU.cpp -o simulador
+```
+
+Após a compilação bem-sucedida, um arquivo executável chamado simulador será gerado. Para rodá-lo, utilize o comando:
+
+```bash
+./simulador
+```
